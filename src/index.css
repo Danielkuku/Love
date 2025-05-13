@@ -305,7 +305,15 @@ footer {
   flex-direction: column; /* Ensures elements stack vertically */
   align-items: center; /* Centers content horizontally */
 }
-
+.reply-section input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+}
 .reply-section h2 {
   font-size: 1.6rem;
   color: #a61e4d;

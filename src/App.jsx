@@ -453,6 +453,17 @@ function App() {
             I’d love to hear your thoughts. Just type — it’s just between us ❤️
           </p>
 
+          <motion.input
+            type="email"
+            name="email"
+            placeholder="Your email (so I can reply 💌)"
+            required
+            className="email-input"
+            initial={{ scale: 0.9, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ once: true }}
+          />
           <motion.textarea
             name="message"
             placeholder="Write me a note here..."
